@@ -1,15 +1,12 @@
 <template>
-  <p>{{ msg }}</p>
+  <footer class="mt-auto text-white-50">
+    <p>Cover template for <a class="text-white" href="https://getbootstrap.com/">Bootstrap</a>, by <a
+        class="text-white" href="https://twitter.com/mdo">@mdo</a>.</p>
+  </footer>
 </template>
 
 <script>
 export default {
   name: "Footer",
-  props: {
-    msg: String
-  }
 }
 </script>
-
-<style scoped>
-</style>

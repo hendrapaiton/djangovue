@@ -6,13 +6,28 @@
     <meta content="width=device-width,initial-scale=1.0" name="viewport">
     <link href="<%= BASE_URL %>favicon.ico" rel="icon">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">
+<body style="height: 100vh;">
 <noscript>
     <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
         Please enable it to continue.</strong>
 </noscript>
-<div id="app"></div>
+<div id="app" class="d-flex h-100 text-center text-white bg-dark"></div>
 <!-- built files will be auto injected -->
 </body>
 </html>
